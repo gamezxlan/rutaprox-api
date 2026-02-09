@@ -1,14 +1,21 @@
 {
   "name": "rutaprox",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Estimador de costo y tiempo de rutas para conductores",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "rutas",
+    "estimador",
+    "costos",
+    "conductores",
+    "maps"
+  ],
+  "author": "RutAprox",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
